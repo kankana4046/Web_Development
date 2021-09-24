@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <style>
+        div {
+            padding: 10px 14px
+        }
+    </style>
+</head>
+
+<body>
+    <h2>HTML Forms Tutorial</h2>
+    <form action="s.php">
+        <div> Name: <input type="text" name="Name"></div>
+        <div>Class: <input type="number" name="Class"></div>
+        <div>Email Id: <input type="email" name="Email"></div>
+        <div>Password: <input type="password" name="Password"></div>
+        <div>Gender: Male<input type="radio" name="Gender"> Female<input type="radio" name="Gender"> Other<input
+                type="radio" name="Gender"></div>
+        <div>Are you Eligible for this? <input type="checkbox" name="Eligibility"></div>
+        <div>Are you Eligible for that? <input type="checkbox" name="Eligibility" checked></div>
+        <div>Car:
+            <select>
+                <option value="nan">Nano</option>
+                <option value="suz">Suzuki</option>
+                <option value="tat" selected>Tata</option>
+                <option value="aud">Audi</option>
+                <option value="oth">Other</option>
+            </select>
+        </div>
+        <div>About yourself: <br> <textarea name="aboutMyself" id="" cols="30" rows="10"></textarea></div>
+        <div>Interest: Low<input type="range" name="Interest">High</div>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Clear All">
+        </div>
+    </form>
+</body>
+
+</html>
